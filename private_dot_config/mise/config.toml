@@ -1,0 +1,7 @@
+[tools]
+bun = "1.1.42"
+"cargo:eza" = "latest"
+chezmoi = "2.56.0"
+node = "23.5.0"
+"npm:yarn" = "1.22.22"
+rust = "1.83.0"
