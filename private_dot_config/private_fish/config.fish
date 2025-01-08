@@ -19,7 +19,7 @@ if status is-interactive
     alias rl="source ~/.config/fish/config.fish"
     alias cb="git branch --show-current | tr -d '\n' | pbcopy"
 
-    cd ~/dev/ktc-platform/k-pla/front
+    # cd ~/dev/ktc-platform/k-pla/front
 end
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH

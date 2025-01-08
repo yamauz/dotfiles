@@ -273,5 +273,8 @@
     "repositories": false,
     "searchAndCompare": false,
     "launchpad": false
-  }
+  },
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": false,
+  "terminal.integrated.defaultProfile.osx": "fish"
 }
