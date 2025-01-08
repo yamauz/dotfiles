@@ -36,3 +36,8 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # oh-my-posh init fish --config ~/.mytheme.omp.json | source
 starship init fish | source
 atuin init fish | source
+
+# vscode 
+# https://code.visualstudio.com/docs/terminal/shell-integration#_manual-installation
+string match -q "$TERM_PROGRAM" "vscode"
+and . (code --locate-shell-integration-path fish)
