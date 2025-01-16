@@ -1,4 +1,5 @@
 [tools]
+bat = "latest"
 bun = "1.1.42"
 "cargo:eza" = "latest"
 chezmoi = "2.56.0"

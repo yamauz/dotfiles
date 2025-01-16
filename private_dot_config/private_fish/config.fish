@@ -15,6 +15,7 @@ if status is-interactive
 
 
     alias ls='eza'
+    alias cat='bat'
     alias pip='pip3'
     alias rl="source ~/.config/fish/config.fish"
     alias cb="git branch --show-current | tr -d '\n' | pbcopy"

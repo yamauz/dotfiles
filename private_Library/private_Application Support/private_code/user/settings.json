@@ -19,60 +19,138 @@
   "vim.leader": "<space>",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["leader", "p"],
-      "commands": ["reactpreview.open"]
+      "before": [
+        "leader",
+        "p"
+      ],
+      "commands": [
+        "reactpreview.open"
+      ]
     },
     {
-      "before": ["leader", "w"],
-      "commands": ["workbench.action.files.save"]
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
     },
     {
-      "before": ["leader", "g", "g"],
-      "commands": ["git-graph.view"]
+      "before": [
+        "leader",
+        "g",
+        "g"
+      ],
+      "commands": [
+        "git-graph.view"
+      ]
     },
     {
-      "before": ["leader", "g", "d"],
-      "commands": ["git.openChange"]
+      "before": [
+        "leader",
+        "g",
+        "d"
+      ],
+      "commands": [
+        "git.openChange"
+      ]
     },
     {
-      "before": ["leader", "g", "c"],
-      "commands": ["git.checkout"]
+      "before": [
+        "leader",
+        "g",
+        "c"
+      ],
+      "commands": [
+        "git.checkout"
+      ]
     },
     {
-      "before": ["leader", "g", "s"],
-      "commands": ["git.stash"]
+      "before": [
+        "leader",
+        "g",
+        "s"
+      ],
+      "commands": [
+        "git.stash"
+      ]
     },
     {
-      "before": ["leader", "g", "p"],
-      "commands": ["git.pull"]
+      "before": [
+        "leader",
+        "g",
+        "p"
+      ],
+      "commands": [
+        "git.pull"
+      ]
     },
     {
-      "before": ["leader", "s"],
-      "after": ["leader", "leader", "s"]
+      "before": [
+        "leader",
+        "s"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ]
     },
     // emmet split join tag
     {
-      "before": ["leader", "e", "s"],
-      "commands": ["editor.emmet.action.splitJoinTag"]
+      "before": [
+        "leader",
+        "e",
+        "s"
+      ],
+      "commands": [
+        "editor.emmet.action.splitJoinTag"
+      ]
     },
     // emmet expand
     {
-      "before": ["leader", "e", "e"],
-      "commands": ["editor.emmet.action.expandAbbreviation"]
+      "before": [
+        "leader",
+        "e",
+        "e"
+      ],
+      "commands": [
+        "editor.emmet.action.expandAbbreviation"
+      ]
     },
     // emmet delete tag
     {
-      "before": ["leader", "e", "d"],
-      "commands": ["editor.emmet.action.removeTag"]
+      "before": [
+        "leader",
+        "e",
+        "d"
+      ],
+      "commands": [
+        "editor.emmet.action.removeTag"
+      ]
     },
     {
-      "before": ["leader", "s"],
-      "after": ["leader", "leader", "s"]
+      "before": [
+        "leader",
+        "s"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ]
     },
     // select block
     {
-      "before": ["@"],
-      "after": ["V", "$", "%"]
+      "before": [
+        "@"
+      ],
+      "after": [
+        "V",
+        "$",
+        "%"
+      ]
     }
   ],
   "vim.visualstar": true,
@@ -86,7 +164,7 @@
     "<C-w>": false
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.minimap.enabled": true,
   "workbench.editor.wrapTabs": true,
@@ -253,9 +331,18 @@
   "accessibility.voice.keywordActivation": "inlineChat",
   "workbench.tree.enableStickyScroll": true,
   "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
-    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ],
+    [
+      "cn\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
   ],
   "editor.quickSuggestions": {
     "strings": true
@@ -277,5 +364,8 @@
   "playwright.reuseBrowser": false,
   "playwright.showTrace": false,
   "terminal.integrated.defaultProfile.osx": "fish",
-  "database-client.autoSync": true
+  "database-client.autoSync": true,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
 }
