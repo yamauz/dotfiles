@@ -180,9 +180,10 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
   "[markdown]": {
-    // "editor.fontFamily": "'源ノ角ゴシック Code JP EL'",
-    // "editor.fontSize": 14,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.trimTrailingWhitespace": false,
     "editor.wordWrap": "off"
@@ -286,7 +287,8 @@
     "plaintext": false,
     "markdown": true,
     "scminput": false,
-    "rust": false
+    "rust": false,
+    "sql": false
   },
   "[python]": {
     "editor.formatOnType": true
@@ -365,7 +367,4 @@
   "playwright.showTrace": false,
   "terminal.integrated.defaultProfile.osx": "fish",
   "database-client.autoSync": true,
-  "[sql]": {
-    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-  },
 }

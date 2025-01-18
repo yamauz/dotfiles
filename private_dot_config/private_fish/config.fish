@@ -15,7 +15,8 @@ if status is-interactive
 
 
     alias ls='eza'
-    alias cat='bat'
+    # alias cat='bat'
+    alias cat='bat --theme="ansi"'
     alias pip='pip3'
     alias rl="source ~/.config/fish/config.fish"
     alias cb="git branch --show-current | tr -d '\n' | pbcopy"
@@ -37,6 +38,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # oh-my-posh init fish --config ~/.mytheme.omp.json | source
 starship init fish | source
 atuin init fish | source
+zoxide init fish | source
 
 # vscode 
 # https://code.visualstudio.com/docs/terminal/shell-integration#_manual-installation
