@@ -14,6 +14,7 @@ if status is-interactive
     set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 
 
+    alias c='chezmoi'
     alias ls='eza'
     # alias cat='bat'
     alias cat='bat --theme="ansi"'
