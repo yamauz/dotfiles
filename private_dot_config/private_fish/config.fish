@@ -19,6 +19,7 @@ if status is-interactive
     # alias cat='bat'
     alias cat='bat --theme="ansi"'
     alias pip='pip3'
+    alias ccd='claude --dangerously-skip-permissions'
     alias rl="source ~/.config/fish/config.fish"
     alias cb="git branch --show-current | tr -d '\n' | pbcopy"
 

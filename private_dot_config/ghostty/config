@@ -12,3 +12,4 @@ keybind = ctrl+a=reload_config
 keybind = ctrl+h=new_split:right
 keybind = ctrl+g=new_split:down
 keybind = ctrl+t=close_surface
+keybind = shift+enter=text:\n
